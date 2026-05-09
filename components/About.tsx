@@ -112,9 +112,9 @@ const About = () => {
                 {/* Work Item */}
                 <div className="relative group">
                   <div className="absolute -left-[41px] top-1 w-4 h-4 bg-blue-600 rounded-full border-4 border-[#050810] ring-4 ring-blue-600/5 group-hover:scale-125 transition-transform shadow-[0_0_15px_rgba(37,99,235,0.4)]"></div>
-                  <h4 className="font-black text-slate-100 tracking-tight">Lakmee Export Lanka Pvt Ltd</h4>
-                  <p className="text-blue-500 text-[10px] font-black uppercase tracking-[0.2em] mt-1">Oct 2025 - Present</p>
-                  <p className="text-slate-500 text-[13px] mt-2 leading-relaxed font-medium italic">Export Sector Professional</p>
+                  <h4 className="font-black text-slate-100 tracking-tight">my company name </h4>
+                  <p className="text-blue-500 text-[10px] font-black uppercase tracking-[0.2em] mt-1">2026 - present</p>
+                  <p className="text-slate-500 text-[13px] mt-2 leading-relaxed font-medium italic">Software Engineer</p>
                 </div>
 
                 {/* Education Item */}
