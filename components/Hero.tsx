@@ -106,7 +106,7 @@ const Hero = () => {
     
     <div className="w-full h-full rounded-full overflow-hidden relative border border-blue-500/20">
       <Image 
-        src="/heroImg.jpg"
+        src="/heroimg.jpg"
         alt="My Profile Picture"
         fill 
         className="object-cover"
