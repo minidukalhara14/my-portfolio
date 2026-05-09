@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Acadamic from "@/components/Acadamic";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navibar";
 import Image from "next/image";
@@ -9,8 +10,8 @@ export default function Home() {
       <Hero />
       <Navbar /> 
       <About />
-      {/* <Acadamic />
-      <Projects />
+      <Acadamic />
+      {/* <Projects />
       <Contact />  */}
       
       
