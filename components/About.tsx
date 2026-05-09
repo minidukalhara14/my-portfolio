@@ -64,7 +64,7 @@ const About = () => {
               </h3>
               <p className="text-slate-400 leading-relaxed text-[15px] font-medium">
                 I am a dedicated Web Developer and a student currently enrolled in higher education.
-                With professional experience in the export sector at <span className="text-blue-400 font-bold">Lakmee Export Lanka</span>,
+                 With a strong foundation in HTML, CSS, JavaScript, and PHP, I have a passion for crafting innovative digital solutions.
                 I bring a disciplined approach to building modern digital solutions.
               </p>
             </motion.div>
