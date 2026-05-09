@@ -2,6 +2,7 @@ import About from "@/components/About";
 import Acadamic from "@/components/Acadamic";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navibar";
+import Projects from "@/components/Projects";
 import Image from "next/image";
 
 export default function Home() {
@@ -11,8 +12,8 @@ export default function Home() {
       <Navbar /> 
       <About />
       <Acadamic />
-      {/* <Projects />
-      <Contact />  */}
+      <Projects />
+      {/* <Contact />  */}
       
       
     </main>
