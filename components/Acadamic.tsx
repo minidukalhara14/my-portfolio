@@ -13,40 +13,116 @@ const Academic = () => {
   const [selectedResult, setSelectedResult] = useState<any>(null);
   
   const results = [
-  { 
-    sem: "1st Semester", 
-    gpa: "3.85", 
-    status: "Completed",
-    subjects: [
-      { code: "CS1101", name: "Programming in C", grade: "A" },
-      { code: "CS1102", name: "Data Structures", grade: "A-" },
-      { code: "MA1101", name: "Calculus I", grade: "B+" },
-      { code: "CS1101", name: "Programming in C", grade: "A" },
-      { code: "CS1102", name: "Data Structures", grade: "A-" },
-      { code: "MA1101", name: "Calculus I", grade: "B+" },
-      { code: "CS1101", name: "Programming in C", grade: "A" },
-      { code: "CS1102", name: "Data Structures", grade: "A-" },
-      { code: "MA1101", name: "Calculus I", grade: "B+" },
-      { code: "MA1101", name: "Calculus I", grade: "B+" },
-    
-    ]
-  },
-  { 
-    sem: "2nd Semester", 
-    gpa: "3.78", 
-    status: "Completed",
-    subjects: [
-      { code: "CS1201", name: "Object Oriented Programming", grade: "A" },
-      { code: "CS1202", name: "Database Systems", grade: "A" },
-      { code: "MA1201", name: "Discrete Maths", grade: "B" },
-      { code: "CS1201", name: "Object Oriented Programming", grade: "A" },
-      { code: "CS1202", name: "Database Systems", grade: "A" },
-      { code: "MA1201", name: "Discrete Maths", grade: "B" },
-      { code: "CS1201", name: "Object Oriented Programming", grade: "A" },
-      { code: "CS1202", name: "Database Systems", grade: "A" },
-      { code: "MA1201", name: "Discrete Maths", grade: "B" }
-    ]
-  },
+ {
+  "sem": "1st year 1st Semester",
+  "gpa": "3.50",
+  "status": "Completed",
+  "subjects": [
+    {
+      "code": "CO 1121",
+      "name": "Basic Mathematics for Computing",
+      "grade": "A"
+    },
+    {
+      "code": "CO 1122",
+      "name": "Basic Computer Programming",
+      "grade": "B-"
+    },
+    {
+      "code": "CO 1112",
+      "name": "Practical Work on CO 1122",
+      "grade": "B-"
+    },
+    {
+      "code": "CO 1123",
+      "name": "Formal Methods for Problem Solving",
+      "grade": "A-"
+    },
+    {
+      "code": "CO 1124",
+      "name": "Computer Systems & PC Applications",
+      "grade": "A+"
+    },
+    {
+      "code": "CO 1114",
+      "name": "Practical Work on CO 1124",
+      "grade": "A+"
+    },
+    {
+      "code": "CO 1125",
+      "name": "Statistics for Science & Technology",
+      "grade": "A"
+    },
+    {
+      "code": "CO 1115",
+      "name": "Practical Work on CO 1125",
+      "grade": "B-"
+    },
+    {
+      "code": "CO 1126",
+      "name": "Management Information System",
+      "grade": "A+"
+    },
+    {
+      "code": "GEP-I",
+      "name": "General English Proficiency-I",
+      "grade": "A+"
+    }
+  ]
+},
+  
+  {
+  "sem": "1st year 2nd Semester",
+  "gpa": "3.02",
+  "status": "Completed",
+  "subjects": [
+    {
+      "code": "CO 1222",
+      "name": "Object Oriented Programming",
+      "grade": "B-"
+    },
+    {
+      "code": "CO 1221",
+      "name": "Database Management Systems",
+      "grade": "B-"
+    },
+    {
+      "code": "CO 1212",
+      "name": "Practical Work on CO 1222 & CO 1221",
+      "grade": "B-"
+    },
+    {
+      "code": "CO 1223",
+      "name": "Data Structures & Algorithms",
+      "grade": "A"
+    },
+    {
+      "code": "CO 1214",
+      "name": "Practical Work on CO 1223",
+      "grade": "B"
+    },
+    {
+      "code": "CO 1224",
+      "name": "Discrete Mathematics",
+      "grade": "A"
+    },
+    {
+      "code": "CO 1213",
+      "name": "Practical Work on CO 1224",
+      "grade": "C"
+    },
+    {
+      "code": "CO 1225",
+      "name": "Micro Economics",
+      "grade": "A+"
+    },
+    {
+      "code": "CO 1226",
+      "name": "Social Harmony & Environmental Science",
+      "grade": "D+"
+    }
+  ]
+},
 ];
 
   const timelineData = [
