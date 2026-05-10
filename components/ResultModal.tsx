@@ -52,7 +52,7 @@ const ResultModal = ({ isOpen, onClose, data }: ResultModalProps) => {
           
           <div className="grid grid-cols-2 gap-3 mb-5">
             <div className="bg-slate-900/50 p-3 rounded-xl border border-slate-800 flex items-center justify-between">
-              <span className="text-[9px] text-slate-500 uppercase font-black tracking-widest">Sem</span>
+              
               <p className="text-white font-bold text-xs flex items-center gap-2">
                 <FaBook className="text-blue-500" size={10}/> {data?.sem}
               </p>

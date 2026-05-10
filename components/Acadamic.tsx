@@ -268,7 +268,7 @@ const Academic = () => {
                         <FaHashtag size={14} />
                       </div>
                       <div>
-                        <p className="text-[10px] text-slate-500 uppercase font-bold">Semester</p>
+                        
                         <h4 className="text-xs font-bold text-white">{res.sem}</h4>
                       </div>
                     </div>
