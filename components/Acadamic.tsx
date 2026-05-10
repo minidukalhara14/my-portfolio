@@ -127,7 +127,7 @@ const Academic = () => {
 
   const timelineData = [
     {
-      title: "BSc (Hons) in Computer Science",
+      title: "BSc in Computer Science",
       sub: "Eastern University, Sri Lanka",
       date: "2024 - Present",
       desc: "Studying Computer Science at Eastern University, Sri Lanka. Focused on software development, algorithms, and data structures. ",
